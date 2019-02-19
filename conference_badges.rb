@@ -8,3 +8,4 @@ def batch_badge_creator(speakers)
   end
 end
 
+d
