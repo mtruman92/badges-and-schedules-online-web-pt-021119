@@ -3,7 +3,7 @@ return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(speakers)
-  speakers.map do |speakers|
+  speakers.collect do |speakers|
     badge_maker(name)
   end
 end
